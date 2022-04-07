@@ -1,0 +1,128 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;  
+    color: white;
+    background-color: #121214;
+}
+
+.page {
+    width:1280px;
+    height: 720px;
+    background-color: #121214;
+    border-radius: 10px;
+    text-align: center;
+    margin:auto;
+}
+
+.logoBox {
+    margin-top: 42px;
+    margin-bottom: 73px;
+}
+
+.whoIsWatching {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+.userListMenu {
+    width: 700px;
+    margin: auto;
+}
+
+.userList {
+    display: flex;
+    margin-top: 60px;
+    padding-left: 0px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+}
+
+.userCard {
+    width: 160px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #9C9C9C;
+}
+
+.userPhoto {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;    
+    height: 160px;
+    width: 160px;
+}
+
+.userPhoto img {
+    transition: transform 0.5s ease;
+}    
+.buttonProfileManage {
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 14px 44px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 135px;
+    background-color: #121214;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.buttonProfileManage:hover {
+    color: black;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
+.userName {
+    margin-top: 0px;
+}
+
+.userCard:hover {
+    color: #FFFFFF;
+}
+
+.userCard:hover img {
+    transform: scale(1.2);
+}
+
+.userCard:hover .userPhoto {
+    height: 160px;
+    width: 160px;
+    border: 1.5px solid white;
+    box-sizing: border-box;
+}  
+  
+
+.plusButton {
+    width:55px;
+    height:55px;
+    border-radius:55px;
+    border: 5px solid #6f6f70;
+    font-size: 55px;
+    display: flex;
+    line-height: 45px;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.userCard:hover .plusButton {
+    border: 5px solid white;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+.manage {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E20;
+}
